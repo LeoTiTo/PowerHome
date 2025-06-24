@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Couleurs de l'application (thème vert écologique) -->
+    <color name="colorPrimary">#4CAF50</color>      <!-- Vert principal -->
+    <color name="colorPrimaryDark">#388E3C</color>  <!-- Vert foncé -->
+    <color name="colorPrimaryLight">#81C784</color> <!-- Vert clair -->
+    <color name="colorAccent">#8BC34A</color>       <!-- Vert lime (accent) -->
+    <color name="colorBackground">#F1F8E9</color>   <!-- Fond légèrement vert -->
+    
+    <!-- Couleurs des niveaux de consommation -->
+    <color name="colorLowConsumption">#4CAF50</color>    <!-- Vert (0-30%) -->
+    <color name="colorMediumConsumption">#FFC107</color> <!-- Jaune/Orange (30-70%) -->
+    <color name="colorHighConsumption">#F44336</color>   <!-- Rouge (70-100%) -->
+    
+    <!-- Couleurs additionnelles -->
+    <color name="colorSuccess">#4CAF50</color>      <!-- Vert pour succès -->
+    <color name="colorWarning">#FFC107</color>      <!-- Jaune pour avertissement -->
+    <color name="colorError">#F44336</color>        <!-- Rouge pour erreur -->
+    <color name="colorInfo">#2196F3</color>         <!-- Bleu pour information -->
+</resources>

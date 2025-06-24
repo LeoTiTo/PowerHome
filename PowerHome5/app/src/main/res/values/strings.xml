@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">PowerHome</string>
+    
+    <!-- Splash Screen -->
+    <string name="app_logo">Logo de l\'application</string>
+    
+    <!-- Auth Screens -->
+    <string name="login">Connexion</string>
+    <string name="register">Inscription</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié?</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="habitat_code">Code Habitat</string>
+    <string name="reset_password">Réinitialiser le mot de passe</string>
+    <string name="create_account">Créer un compte</string>
+    <string name="already_have_account">Vous avez déjà un compte? Connectez-vous</string>
+    <string name="no_account_yet">Pas encore de compte? Inscrivez-vous</string>
+    <string name="reset_instructions">Entrez votre adresse email pour recevoir un lien de réinitialisation</string>
+    <string name="back_to_login">Retour à la connexion</string>
+    
+    <!-- Main Navigation -->
+    <string name="home">Accueil - Ma résidence</string>
+    <string name="my_habitat">Mon Habitat</string>
+    <string name="all_habitats">Liste des Habitats</string>
+    <string name="my_devices">Mes Appareils</string>
+    <string name="my_reservations">Mes Réservations</string>
+    <string name="consumption_calendar">Calendrier de consommation</string>
+    <string name="my_profile">Mon Profil</string>
+    <string name="about">À propos</string>
+    <string name="settings">Paramètres</string>
+    <string name="logout">Déconnexion</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    
+    <!-- Home Fragment -->
+    <string name="consumption_level">Niveau de consommation globale de la résidence</string>
+    <string name="eco_coins">Éco-coins</string>
+    <string name="low_consumption">Faible consommation</string>
+    <string name="medium_consumption">Consommation moyenne</string>
+    <string name="high_consumption">Consommation élevée</string>
+    <string name="book_device">Réserver un appareil</string>
+    
+    <!-- Devices -->
+    <string name="device_name">Nom de l\'appareil</string>
+    <string name="device_type">Type d\'appareil</string>
+    <string name="power_consumption">Consommation</string>
+    <string name="power_watts">%d W</string>
+    <string name="add_device">Ajouter un appareil</string>
+    <string name="edit_device">Modifier l\'appareil</string>
+    <string name="delete_device">Supprimer l\'appareil</string>
+    <string name="device_status">Statut</string>
+    <string name="active">Actif</string>
+    <string name="inactive">Inactif</string>
+    
+    <!-- Reservations -->
+    <string name="new_reservation">Nouvelle réservation</string>
+    <string name="start_time">Heure de début</string>
+    <string name="end_time">Heure de fin</string>
+    <string name="select_device">Sélectionner un appareil</string>
+    <string name="book">Réserver</string>
+    <string name="time_range">%1$s - %2$s</string>
+    <string name="cancel_reservation">Annuler la réservation</string>
+    <string name="completed">Terminée</string>
+    <string name="pending">En attente</string>
+    <string name="my_eco_coins">Mes Éco-coins: %d</string>
+    <string name="complete">Terminer</string>
+    
+    <!-- Generic -->
+    <string name="save">Enregistrer</string>
+    <string name="cancel">Annuler</string>
+    <string name="delete">Supprimer</string>
+    <string name="confirm">Confirmer</string>
+    <string name="loading">Chargement…</string>
+    <string name="error">Erreur</string>
+    <string name="success">Succès</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="ok">OK</string>
+    
+    <!-- Habitat -->
+    <string name="residents">Résidents</string>
+    <string name="devices">Appareils</string>
+    <string name="manage_devices">Gérer les appareils</string>
+    <string name="devices_count">%d appareil(s)</string>
+    <string name="habitats_description">Liste des habitats de la résidence et leur consommation actuelle</string>
+    <string name="apartment_number">Appartement n°%s</string>
+    <string name="residents_count">%d résident(s)</string>
+    
+    <!-- Settings -->
+    <string name="notifications">Notifications</string>
+    <string name="push_notifications">Notifications push</string>
+    <string name="consumption_alerts">Alertes de consommation</string>
+    <string name="reservation_reminders">Rappels de réservation</string>
+    <string name="display">Affichage</string>
+    <string name="dark_mode">Mode sombre</string>
+    <string name="text_size">Taille du texte</string>
+    <string name="small">Petit</string>
+    <string name="medium">Moyen</string>
+    <string name="large">Grand</string>
+    <string name="other">Autres</string>
+    <string name="clear_cache">Vider le cache</string>
+    <string name="send_feedback">Envoyer des commentaires</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+</resources>

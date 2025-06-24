@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions Internet pour Firebase et les appels API -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".PowerHomeApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_custom"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_custom_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PowerHome"
+        tools:targetApi="31">
+        
+        <!-- SplashActivity: écran de démarrage -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.PowerHome.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Activités d'authentification -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PowerHome.NoActionBar" />
+            
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PowerHome.NoActionBar" />
+            
+        <activity
+            android:name=".ui.auth.ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PowerHome.NoActionBar" />
+            
+        <!-- Activité principale avec le Drawer -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+            
+        <!-- Activité de réservation -->
+        <activity
+            android:name=".ui.reservation.NewReservationActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+    </application>
+
+</manifest>

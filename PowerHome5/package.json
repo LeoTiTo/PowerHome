@@ -1,0 +1,16 @@
+{
+  "name": "firestore-exporter",
+  "version": "1.0.0",
+  "description": "Outil d'exportation de base de données Firestore en JSON pour PowerHome",
+  "main": "firestore-export.js",
+  "scripts": {
+    "export": "node firestore-export.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.10.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true
+} 
